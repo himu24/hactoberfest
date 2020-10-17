@@ -16,7 +16,7 @@ main()
     scanf("%f%f",&a,&b);
     if(f(a)*f(b)<0)
     {printf("n\ta  b  c  f(c) \n");
-    while((b-a)>pow(10,-e))
+    while((b-a)>pow(10,-2e))
     {
         printf("%d  %.4f  %.4f  %.4f  %.4f\n",i,a,b,c,f(c));
         c=(a+b)/2;
