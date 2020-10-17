@@ -11,7 +11,7 @@ main()
     float a,b,c;
     printf("enter the significant value upto which you want to print ");
     scanf("%d",&e);
-    start:
+    
      printf("enter the interval\n");
     scanf("%f%f",&a,&b);
     if(f(a)*f(b)<0)
@@ -30,9 +30,9 @@ main()
       
         }
         printf("%d  %.4f  %.4f  %.4f  %.4f\n",i,a,b,c,f(c));
-        printf("appx root of the equation is %0.5f",c);
+        printf("appx Root of the equation is %0.5f",c);
         }
         else
-    goto start;
+    
    
 }
